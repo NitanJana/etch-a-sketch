@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  aspect-ratio: 1/1;
+
+}
+
+.square {
+  width: calc(600px/16);
+  aspect-ratio: 1/1;
+  background-color: yellow;
+  /* border: 1px solid green; */
+}
