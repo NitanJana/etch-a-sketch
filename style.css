@@ -5,22 +5,38 @@
 }
 body {
   height: 100vh;
-  display: flex;  
+  /* display: flex;  
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  
 }
+#changeCanvas {
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3rem;
+  width: 12rem;
+  height: 3rem;
+  background-color: #55a2e6;
+  color: white;
+  margin: 10px auto;
+  display: block;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  width: 500px;
   aspect-ratio: 1/1;
+  margin: 1rem auto;
 
 }
 
 .square {
-  width: calc(600px/16);
+  width: calc(500px/16);
   aspect-ratio: 1/1;
+  
   background-color: yellow;
   /* border: 1px solid green; */
 }
